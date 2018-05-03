@@ -4,6 +4,8 @@ download prettier with all extra plugins
 login to github as bot:
   setup_git.sh
   git_login.py
+    http://kazuar.github.io/scraping-tutorial/
+    https://github.com/nelsonic/github-scraper
 
 scrape https://github.com/pulls/assigned for projects
   scrape_assignments.py
