@@ -1,0 +1,14 @@
+download_prettier.sh
+setup_git.sh
+git_login.py
+
+#cron
+scrape_assignments.py
+
+for each in scrape_assignments_list:
+    pull_assignment.sh
+    runn_prettier.sh
+    git_acp_files.sh
+    delete folder of assigments
+
+delete scrape_assignments_list

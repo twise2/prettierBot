@@ -1,0 +1,21 @@
+download prettier with all extra plugins
+  download_prettier.sh
+
+login to github as bot:
+  setup_git.sh
+  git_login.py
+
+scrape https://github.com/pulls/assigned for projects
+  scrape_assignments.py
+
+for each in scrape_assignments:
+  git pull all assigned projects
+    pull_assignments.sh
+
+  run prettier over all files in project
+    run_prettier.sh
+      https://medium.com/@ajaysaini.official/how-to-run-prettier-on-all-js-files-in-a-directory-7d2d96e66919
+      https://til.hashrocket.com/posts/498b012fbd-run-prettier-on-all-javascript-files-in-a-dir
+
+  add files, commit, push back up
+    git_acp_files.sh
